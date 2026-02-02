@@ -1,0 +1,12 @@
+<h1>User List</h1>
+
+<form action="/add" method="post">
+    <input name="name" placeholder="Enter name" />
+    <button>Add</button>
+</form>
+
+<ul>
+    <% users.forEach(u => { %>
+        <li><%= u.name %></li>
+    <% }) %>
+</ul>
