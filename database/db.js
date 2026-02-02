@@ -19,5 +19,4 @@ db.run(`
         name TEXT
     )
 `);
-
 module.exports = db;
