@@ -1,9 +1,3 @@
-// const users = ["Alice", "Bob", "Charlie"];
-
-// exports.getUsers = () => {
-//     return users;
-// };
-
 
 const db = require("../database/db");
 
